@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* default settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background: linear-gradient(to right, #0077b6, #00b4d8 50%);
+  padding: 0 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* buttons */
+.btn {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+
+.btn-submit:hover {
+  background: #00b4d8;
+}
+
+.btn-skip {
+  border: none;
+  background: none;
+  color: #727272;
+  font-size: 1rem;
+}
+
+.btn-skip:hover {
+  color: #0077b6;
+}
+
+/* card */
+#main-card.card {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 7px 10px -8px rgba(3, 4, 94, 1);
+}
+
+#main-card .header {
+  color: #727272;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e6dcdc;
+}
+
+#main-card .subtitle {
+  margin: 1.5rem 0;
+  font-weight: 500;
+  font-size: 1.08rem;
+}
+
+#main-card form div {
+  padding: 0.5rem 0;
+}
+
+#main-card form input[type="radio"] {
+  cursor: pointer;
+}
